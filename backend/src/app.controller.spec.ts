@@ -19,4 +19,10 @@ describe('AppController', () => {
       expect(appController.getHello()).toBe('Hello World!');
     });
   });
+
+  describe('/hello', () => {
+    it('should return a greeting JSON payload', () => {
+      expect(appController.getHelloGiaPha()).toEqual({ message: 'Hello Gia Phả' });
+    });
+  });
 });
