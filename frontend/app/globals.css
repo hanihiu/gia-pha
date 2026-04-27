@@ -7,17 +7,17 @@
   --color-border: rgba(63, 46, 18, 0.12);
   --color-muted-foreground: #6f6658;
   --font-geist-sans:
-    "Inter", "Segoe UI", Roboto, Helvetica, Arial, system-ui, sans-serif;
-  --font-geist-mono:
-    "SFMono-Regular", "SFMono", Consolas, "Liberation Mono", Menlo, monospace;
+  --surface: #fffdf8;
+  --border: rgba(63, 46, 18, 0.12);
+  --muted-foreground: #6f6658;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-surface: var(--color-surface);
-  --color-border: var(--color-border);
-  --color-muted-foreground: var(--color-muted-foreground);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-muted-foreground: var(--muted-foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-serif: Georgia, "Times New Roman", serif;
