@@ -6,6 +6,10 @@
   --color-surface: #fffdf8;
   --color-border: rgba(63, 46, 18, 0.12);
   --color-muted-foreground: #6f6658;
+  --font-geist-sans:
+    "Inter", "Segoe UI", Roboto, Helvetica, Arial, system-ui, sans-serif;
+  --font-geist-mono:
+    "SFMono-Regular", "SFMono", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 @theme inline {

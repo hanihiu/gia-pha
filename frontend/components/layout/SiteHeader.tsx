@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import Container from "@/components/ui/Container";
+import Container from "@/components/ui/container";
 import { siteConfig } from "@/app/config";
 import type { NavItem } from "@/types";
 
