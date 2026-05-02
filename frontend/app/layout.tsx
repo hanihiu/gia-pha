@@ -12,7 +12,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi" className="h-full scroll-smooth antialiased" suppressHydrationWarning>
+    <html
+      lang="vi"
+      className="h-full scroll-smooth antialiased"
+      suppressHydrationWarning
+    >
       <body className="min-h-full bg-[var(--color-background)] text-[var(--color-foreground)]">
         {children}
       </body>
