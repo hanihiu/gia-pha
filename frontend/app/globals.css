@@ -7,7 +7,7 @@
   --color-border: rgba(63, 46, 18, 0.12);
   --color-muted-foreground: #6f6658;
   --font-geist-sans:
-  --surface: #fffdf8;
+    --surface: #fffdf8;
   --border: rgba(63, 46, 18, 0.12);
   --muted-foreground: #6f6658;
 }
@@ -51,6 +51,7 @@ a {
 }
 
 @layer base {
+
   h1,
   h2,
   h3,
