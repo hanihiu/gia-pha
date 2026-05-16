@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Stylized dragon background">
+  <defs>
+    <linearGradient id="bodyGradient" x1="110" x2="1080" y1="520" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cf8f2e" stop-opacity="0.22" />
+      <stop offset="0.48" stop-color="#9d6b22" stop-opacity="0.34" />
+      <stop offset="1" stop-color="#1f5d43" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="lineGradient" x1="120" x2="1120" y1="470" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c4f16" stop-opacity="0.28" />
+      <stop offset="0.55" stop-color="#b77926" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#234f3a" stop-opacity="0.34" />
+    </linearGradient>
+    <filter id="softGlow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g fill="none" filter="url(#softGlow)" stroke-linecap="round" stroke-linejoin="round">
+    <path
+      d="M78 474C170 350 290 548 420 407C544 272 650 387 752 258C825 165 922 170 997 239"
+      stroke="url(#bodyGradient)"
+      stroke-width="78"
+    />
+    <path
+      d="M80 474C174 355 291 537 418 402C540 272 652 382 748 260C821 169 916 176 990 242"
+      stroke="url(#lineGradient)"
+      stroke-width="24"
+    />
+    <path
+      d="M151 421C181 421 206 434 230 458M265 473C295 475 321 465 343 445M383 419C413 412 440 418 464 436M511 390C540 371 569 369 597 381M637 366C668 365 696 350 719 320M765 262C795 235 828 225 861 229"
+      stroke="#68461b"
+      stroke-opacity="0.22"
+      stroke-width="9"
+    />
+  </g>
+
+  <g fill="none" stroke="#8a5a1c" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.34">
+    <path d="M930 204L898 124L960 176" stroke-width="18" />
+    <path d="M1025 211L1089 139L1069 235" stroke-width="18" />
+    <path d="M1006 285C1046 336 1115 352 1166 326" stroke-width="8" />
+    <path d="M1000 292C1037 365 1099 401 1165 398" stroke-width="6" />
+    <path d="M936 281C894 334 842 356 779 345" stroke-width="8" />
+  </g>
+
+  <g fill="#c17a25" fill-opacity="0.24" stroke="#5c3d18" stroke-linejoin="round" stroke-opacity="0.28" stroke-width="10">
+    <path d="M925 189C963 148 1032 151 1074 191C1116 232 1096 291 1040 310C986 329 926 305 903 263C889 236 902 213 925 189Z" />
+    <path d="M1048 228C1101 226 1134 250 1148 293C1108 290 1071 278 1032 252Z" />
+    <path d="M930 286C903 315 856 322 818 306C851 284 884 268 924 257Z" />
+  </g>
+
+  <g fill="#2b3f30" fill-opacity="0.34">
+    <circle cx="1008" cy="222" r="8" />
+    <circle cx="1085" cy="255" r="5" />
+  </g>
+
+  <g fill="#7a511b" fill-opacity="0.25">
+    <path d="M210 349L251 281L271 365Z" />
+    <path d="M362 388L401 313L424 397Z" />
+    <path d="M530 291L568 219L592 306Z" />
+    <path d="M707 248L752 176L766 270Z" />
+    <path d="M846 197L890 128L898 221Z" />
+  </g>
+
+  <g stroke="#2f654c" stroke-linecap="round" stroke-opacity="0.18">
+    <path d="M122 556C208 524 293 534 367 585" stroke-width="11" />
+    <path d="M467 520C548 478 632 493 695 562" stroke-width="9" />
+    <path d="M746 420C829 383 923 397 1006 464" stroke-width="10" />
+  </g>
+</svg>

@@ -1,6 +1,5 @@
-import Link from "next/link";
-
 import Container from "@/components/ui/container";
+import AppLink from "@/components/ui/AppLink";
 import { siteConfig } from "@/app/config";
 import type { NavItem } from "@/types";
 
@@ -14,7 +13,7 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-[color:var(--color-surface)]/85 backdrop-blur">
       <Container className="flex h-16 items-center justify-between gap-6">
-        <Link href="/" className="flex items-center gap-3">
+        <AppLink href="/" className="flex items-center gap-3">
           <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-[var(--color-foreground)] text-sm font-semibold text-[var(--color-background)]">
             GP
           </span>
@@ -26,17 +25,17 @@ export default function SiteHeader() {
               Next.js App Router foundation
             </p>
           </div>
-        </Link>
+        </AppLink>
 
         <nav className="hidden items-center gap-6 text-sm font-medium text-[var(--color-muted-foreground)] md:flex">
           {navigation.map((item) => (
-            <Link
+            <AppLink
               key={item.href}
               href={item.href}
-              className="transition hover:text-[var(--color-foreground)]"
+              variant="nav"
             >
               {item.label}
-            </Link>
+            </AppLink>
           ))}
         </nav>
       </Container>
